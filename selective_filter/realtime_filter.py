@@ -30,8 +30,8 @@ def record(duration,fs,channels):
     sd.wait()
     return sound
 
-sr = 22000 #sampling rate
-strength = 0.5 #filter strength
+sr = 16000 #sampling rate
+strength = 10 #filter strength
 
 print("Press ENTER to record the noise you want to filter out:")
 rec = input()
